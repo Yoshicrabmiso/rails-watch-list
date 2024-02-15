@@ -62,5 +62,11 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
+gem "bootstrap", "~> 5.2"
+gem "autoprefixer-rails"
+gem "font-awesome-sass", "~> 6.1"
+gem "simple_form"
+gem "sassc-rails"
+
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
